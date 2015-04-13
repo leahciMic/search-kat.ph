@@ -8,6 +8,10 @@
   },
   "author": "Michael Leaney <leahcimic@gmail.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leahciMic/search-kat.ph"
+  },
   "dependencies": {
     "bluebird": "^2.9.24",
     "cheerio": "^0.19.0",
