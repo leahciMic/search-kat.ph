@@ -1,0 +1,19 @@
+{
+  "name": "search-kat.ph",
+  "version": "1.0.0",
+  "description": "Search kat.ph",
+  "main": "search.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Leaney <leahcimic@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.9.24",
+    "cheerio": "^0.19.0",
+    "request": "^2.55.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.2.1"
+  }
+}
