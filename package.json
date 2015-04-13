@@ -1,6 +1,6 @@
 {
   "name": "search-kat.ph",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Search kat.ph",
   "main": "search.js",
   "scripts": {

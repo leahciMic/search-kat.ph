@@ -1,4 +1,4 @@
-# Search kat.ph
+# Search kat.ph [![Build Status](https://travis-ci.org/leahciMic/search-kat.ph.svg?branch=master)](https://travis-ci.org/leahciMic/search-kat.ph)
 
 ## Installation
 
