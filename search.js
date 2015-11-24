@@ -25,8 +25,8 @@ module.exports = function search(query) {
 						age: $($(this).children()[3]).text(),
 						seeds: +$($(this).children()[4]).text(),
 						leech: +$($(this).children()[5]).text(),
-						magnet: $(this).find('.imagnet').attr('href'),
-						torrent: $($(this).find('a.idownload')[1]).attr('href')
+						magnet: $(this).find('.ka-magnet').parent().attr('href'),
+						torrent: $($(this).find('.ka-arrow-down')).parent().attr('href')
 					};
 				})
 				.get();
