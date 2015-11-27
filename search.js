@@ -5,7 +5,7 @@ var bluebird = require('bluebird'),
 module.exports = function search(query) {
 	return request
 		.getAsync({
-			url: 'http://kickass.to/usearch/' + encodeURIComponent(query) + '/',
+			url: 'http://kat.cr/usearch/' + encodeURIComponent(query) + '/',
 			gzip: true
 		})
 		.catch(function(error) {
