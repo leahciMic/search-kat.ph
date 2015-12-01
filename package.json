@@ -1,6 +1,6 @@
 {
   "name": "search-kat.ph",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Search kat.ph",
   "main": "search.js",
   "scripts": {
@@ -8,7 +8,10 @@
   },
   "author": "Michael Leaney <leahcimic@gmail.com>",
   "contributors": [
-    {"name": "David Baldwynn", "url": "https://github.com/whitef0x0"}
+    {
+      "name": "David Baldwynn",
+      "url": "https://github.com/whitef0x0"
+    }
   ],
   "license": "ISC",
   "repository": {
