@@ -7,6 +7,9 @@
     "test": "./node_modules/.bin/jasmine"
   },
   "author": "Michael Leaney <leahcimic@gmail.com>",
+  "contributors": [
+    {"name": "David Baldwynn", "url": "https://github.com/whitef0x0"}
+  ],
   "license": "ISC",
   "repository": {
     "type": "git",
