@@ -5,7 +5,7 @@ var bluebird = require('bluebird'),
 module.exports = function search(query) {
 	return request
 		.getAsync({
-			url: 'http://kickass.to/usearch/' + encodeURIComponent(query) + '/',
+			url: 'http://kat.cr/usearch/' + encodeURIComponent(query) + '/',
 			gzip: true
 		})
 		.catch(function(error) {
@@ -25,8 +25,8 @@ module.exports = function search(query) {
 						age: $($(this).children()[3]).text(),
 						seeds: +$($(this).children()[4]).text(),
 						leech: +$($(this).children()[5]).text(),
-						magnet: $(this).find('.imagnet').attr('href'),
-						torrent: $($(this).find('a.idownload')[1]).attr('href')
+						magnet: $(this).find('a[title="Torrent magnet link"]').attr('href'),
+						torrent: $(this).find('a[title="Download torrent file"]').attr('href')
 					};
 				})
 				.get();
