@@ -4,7 +4,7 @@
   "description": "Search kat.ph",
   "main": "search.js",
   "scripts": {
-    "test": "./node_modules/.bin/jasmine"
+    "test": "DEBUG=* ./node_modules/.bin/jasmine"
   },
   "author": "Michael Leaney <leahcimic@gmail.com>",
   "contributors": [
@@ -21,6 +21,7 @@
   "dependencies": {
     "bluebird": "^2.9.24",
     "cheerio": "^0.19.0",
+    "debug": "^2.2.0",
     "request": "^2.55.0"
   },
   "devDependencies": {
