@@ -8,7 +8,6 @@ describe('Parse kat.ph results', function() {
       expect(results.length).toBeGreaterThan(0);
       expect(results[0].name.length).toBeGreaterThan(0);
       expect(results[0].size.length).toBeGreaterThan(0);
-      expect(results[0].files).toBeGreaterThan(0);
       expect(results[0].age.length).toBeGreaterThan(0);
       expect(results[0].seeds).toBeGreaterThan(-1);
       expect(results[0].leech).toBeGreaterThan(-1);
